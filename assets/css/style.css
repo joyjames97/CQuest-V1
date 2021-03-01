@@ -461,10 +461,18 @@ section .container {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about-me .section-title h3 {
+  padding-bottom: 1em;
+}
+
+.about-me .section-title h2 {
+  font-size: 18px;
+  padding: 1em 0;
+}
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #563cbf;
+  color: #cf152d;
 }
 
 .about-me .content ul {
@@ -485,7 +493,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #563cbf;
+  color: #cf152d;
   line-height: 0;
 }
 
